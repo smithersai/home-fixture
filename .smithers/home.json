@@ -1,0 +1,41 @@
+{
+  "blocks": [
+    {
+      "type": "prompt",
+      "title": "What should we work on?",
+      "placeholder": "Ask Smithers…"
+    },
+    {
+      "type": "text",
+      "title": "About",
+      "text": "A fixture repository that declares its own home."
+    },
+    {
+      "type": "links",
+      "links": [
+        { "label": "Smithers docs", "url": "https://smithers.sh/docs/" }
+      ]
+    },
+    {
+      "type": "markdown",
+      "path": "docs/intro.md",
+      "title": "Intro"
+    },
+    {
+      "type": "app",
+      "flow": "flow.new",
+      "title": "Make a flow",
+      "picture": "wiki"
+    },
+    {
+      "type": "app",
+      "flow": "issue.implement",
+      "title": "Fix an issue",
+      "picture": "issue"
+    },
+    {
+      "type": "chart",
+      "data": [1, 2, 3]
+    }
+  ]
+}
